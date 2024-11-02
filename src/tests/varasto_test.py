@@ -6,6 +6,9 @@ class TestVarasto(unittest.TestCase):
     def setUp(self):
         self.varasto = Varasto(10)
 
+    def test_tyhja(self): 
+        pass
+
     def test_konstruktori_luo_tyhjan_varaston(self):
         varasto = Varasto(0)
         # https://docs.python.org/3/library/unittest.html#unittest.TestCase.assertAlmostEqual
