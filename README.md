@@ -1,4 +1,4 @@
 # ohtuvarasto
 
 # Workflow status badge
-https://github.com/<OWNER>/<REPOSITORY>/workflows/<WORKFLOW_NAME>/badge.svg
+https://github.com/aTomiSan/<REPOSITORY>/workflows/CI/badge.svg
