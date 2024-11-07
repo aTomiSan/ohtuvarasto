@@ -6,7 +6,7 @@ class TestVarasto(unittest.TestCase):
     def setUp(self):
         self.varasto = Varasto(10)
 
-    def test_tyhja(self): 
+    def test_tyhja(self):
         pass
 
     def test_konstruktori_luo_tyhjan_varaston(self):
@@ -46,7 +46,6 @@ class TestVarasto(unittest.TestCase):
         self.assertAlmostEqual(saatu_maara, 0.0)
         saatu_maara = self.varasto.ota_varastosta(10)
         self.assertAlmostEqual(saatu_maara, 6)
-
 
     def test_ottaminen_lisaa_tilaa(self):
         self.varasto.lisaa_varastoon(8)
