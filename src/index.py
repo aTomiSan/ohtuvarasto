@@ -5,7 +5,6 @@ def main():
     mehua = Varasto(100.0)
     olutta = Varasto(100.0, 20.2)
 
-# too long too long too long too long too long too long too long too long too long too long 
 
     print("Luonnin jälkeen:")
     print(f"Mehuvarasto: {mehua}")
